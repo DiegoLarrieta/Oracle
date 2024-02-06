@@ -1,0 +1,9 @@
+[user]
+	name = diego
+	email = diegolarrieta@gmail.com
+[init]
+	defaultBranch = main
+[alias]
+	tree = & git log --graph --pretty=oneline
+[core]
+	editor = code --wait

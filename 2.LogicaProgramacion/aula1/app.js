@@ -2,6 +2,7 @@ let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
+//esta funcion es muy podersona recomeindo agregar siempre que utilices js con html 
 function asignarTextoElemento(elemento,texto){
    let elementoHTML = document.querySelector(elemento);
    elementoHTML.innerHTML=texto;
@@ -55,7 +56,7 @@ function generarNumeroSecreto(){
  }
 function condicionesIniciales(){
    asignarTextoElemento('h1','Juego del numero secreto!');
-   asignarTextoElemento('p',`Indica unn numero del 1 al ${numeroMaximo}`);
+   asignarTextoElemento('p',`Indica un numero del 1 al ${numeroMaximo}`);
    numeroSecreto = generarNumeroSecreto();
    intentos = 1;
 }
